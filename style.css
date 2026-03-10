@@ -8,6 +8,9 @@ max-width: 1200px;
 margin: 0 auto;
 
 }
+.logo-none{
+    display: none;
+}
 .menu{
     display: flex;
     justify-content: center;
@@ -17,6 +20,7 @@ margin: 0 auto;
 .logo-menu{
     font-size: 25px;
     font-weight: 600;
+    list-style: none;
 }
 .text-menu{
     display: flex;
@@ -30,6 +34,7 @@ margin: 0 auto;
     gap: 5px;
     list-style: none;
     text-align: end;
+    padding-bottom: 20px;
 
 }
 .text-li{
@@ -41,7 +46,7 @@ margin: 0 auto;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-height: 600px;
+height: 800px;
 }
 
 .box-hero{
@@ -54,9 +59,9 @@ height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-font-size: 50px;
+font-size: 60px;
 font-weight: 600;
-margin-top: 170px;
+margin-top: 270px;
 }
 .hero p{
     color: rgba(255, 255, 255, 0.727);
@@ -64,6 +69,7 @@ margin-top: 170px;
     justify-content: center;
     align-items: center; 
     text-align: center;
+    font-size: 25px;
 }
 .box-btn{
  display: flex;
@@ -71,7 +77,7 @@ justify-content: center;
 gap: 20px;
 }
 .btn1{
-   
+   font-size: 15px;
  color: white;
     background-color: #FB8500;
     border: none;
@@ -80,6 +86,7 @@ gap: 20px;
     cursor: pointer;
 }
 .btn2{
+     font-size: 15px;
      color: #FB8500;
     background-color: white;
     border: none;
@@ -89,6 +96,56 @@ gap: 20px;
 }
 
 .finish-text-hero{
-    color: rgba(255, 255, 255, 0.789);
-font-size: 12px;
+    color: rgba(255, 255, 255, 0.711);
+font-size: 13px;
+text-align: center;
+}
+.bottom{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+  margin-left: 48%;
+  margin-top: 22vh;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media(max-width: 600px){
+.text-menu{
+display: none;
+}
+.logo-none{
+    position: relative;
+    top: -30px;
+    display: flex;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-menu{
+    display: none;
+}
+.number-menu{
+    display: none;
+}
+.hero{
+    
+    width: 394px;
+}
+.box-hero h1{
+   font-size: 20px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box-hero p{
+   font-size: 10px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 }

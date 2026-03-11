@@ -416,6 +416,7 @@ margin-top: -100px;
     gap: 30px;
     padding-top: 100px;
     margin-left: 70px;
+    padding-bottom: 200px;
 }
 @media(max-width: 600px){
 .box-conter4 h1{
@@ -467,6 +468,129 @@ padding: 10px;
     border-radius: 10px;
 margin-left: -0px;
 }
+}
 
+.container5{
+max-width: 100%;
+margin: 0 auto;
+    color: white;
+    background-image:linear-gradient(rgba(10,25,60,0.4), rgba(10,25,60,0.4)), url("bf8a40060807c258cf8e59f06ca2bac424b8729c.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 1300px;   
+
+
+}
+
+.text-blue-cont5{
+    color: #258ba4;
+    font-size: 20px;
+
+}
+.cont-conter5{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 50px; 
+}
+
+.box-conter5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin-top: 200px;
+}
+
+.box-conter5 h1{
+font-size: 60px;    
+
+}
+.icons-cont5{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons-icon5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.icons-icon5 h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.icons-icon5 p{
+    font-size: 15px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.575);
+}
+.icons-icon5 img{
+    cursor: pointer;
+}
+
+.icons-persent-sign{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.persent-sign5{
+ 
+color: #FB8500;
+background-color: white;
+padding: 18px;
+border-radius: 50%;
+font-weight: 600;
+}
+
+@media(max-width: 600px){
+    .text-blue-cont5{
+        margin-top: -150px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.533);
+    }
+    .box-conter5 h1{
+        font-size: 40px;
+    }
+.cont-conter5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    .box-conter5{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+.icons-cont5{
+    display: flex;
+    flex-direction: column;
+}
+.icons-icon5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.icons-persent-sign{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container5{
+    margin-top: 50px;
+    height: 2150px;
+}
 
 }
